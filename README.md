@@ -31,8 +31,8 @@ The application is now accessible at `http://localhost:9090`.
 {
     "products": [
         {
-            "product_id": 1, // product id
-            "quantity": 2 // quntity
+            "product_id": 1,
+            "quantity": 2
         }
     ]
 }
