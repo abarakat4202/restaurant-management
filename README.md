@@ -16,7 +16,7 @@ The application is now accessible at `http://localhost:9090`.
 
 ---
 
-## Applicaple Improvements:
+## Applicable Improvements:
 - We would save the ingredients used for each ordered product in case there are any changes to the quantities of these product ingredients.
 - Any changes to the inventory would be recorded.
 - We would keep a record of the emails that have been sent.
