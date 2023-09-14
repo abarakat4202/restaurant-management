@@ -57,18 +57,6 @@ class CreateOrderTest extends TestCase
         $this->assertEquals($ingredient1->stock_level - (2 * 150), $ingredient1->fresh()->stock_level);
         $this->assertEquals($ingredient2->stock_level - (2 * 30), $ingredient2->fresh()->stock_level);
         $this->assertEquals($ingredient3->stock_level - (2 * 20), $ingredient3->fresh()->stock_level);
-        
-        // Assert that the notification was sent
-        // Notification::assertSentTo(
-        //     config('merchant.email'),
-        //     LowStockLevelNotification::class,
-        //     function (LowStockLevelNotification $notification, $channels) use ($ingredient1) {
-        //         return $notification->ingredient->id === $ingredient1->id;
-        //     }
-        // );
-
-        // Assert that the notified_at timestamp was updated
-        // $this->assertNotNull($ingredient1->fresh()->notified_at);
     }
 
     /**
